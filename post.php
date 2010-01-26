@@ -16,10 +16,13 @@
 				
 				edit_post_link('Edit', ' &nbsp;|&nbsp; ', '');
 			?>
+			
 		</p>
 
 		<div class="entry">
 			<?php the_content('Read the rest of this entry &raquo;'); ?>
 		</div>
-
+		
+		<?php if(function_exists('the_tags')) { the_tags(__('<div class="tags-post">Tags: ', 'tags'), ", ", "</div>"); } ?>
+		
 	</div> <!-- /post -->

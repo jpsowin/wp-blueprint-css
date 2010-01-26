@@ -41,9 +41,8 @@
 					
 					<div class="entry">
 						<?php the_content('<p class="serif">Read the rest of this entry &raquo;</p>'); ?>
-
-						<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 						
+						<?php if(function_exists('the_tags')) { the_tags(__('<div class="tags-post">Tags: ', 'tags'), ", ", "</div>"); } ?>
 
 					</div>
 				</div>

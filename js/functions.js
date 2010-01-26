@@ -17,4 +17,4 @@ function clearInput(field_id, term_to_clear) {
 	else if (document.getElementById(field_id).value == '' ) {
 		document.getElementById(field_id).value = term_to_clear;
 	}
-} // end clearSearch()
+} // end clearInput()

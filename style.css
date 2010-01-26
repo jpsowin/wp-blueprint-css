@@ -1,9 +1,10 @@
 /*  
 Theme Name: Blueprint Theme
-Theme URI: http://www.fireandknowledge.org/
+Theme URI: http://www.fireandknowledge.org/blueprint/
 Description: A simple Wordpress theme based on the <a href="http://code.google.com/p/blueprintcss/">Blueprint CSS Framework</a>.
-Version: 1.0
+Version: 1.0.1
 Author: Joshua Sowin
+Tags: Blueprint, theme, css, framework, clean, minimalistic 
 Author URI: http://www.fireandknowledge.org/
 
 Credits:
@@ -15,3 +16,35 @@ Uses Fam Fam Fam Silk Icons:
 http://www.famfamfam.com/lab/icons/silk/
 
 */
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignright {
+    float: right;
+}
+
+.alignleft {
+    float: left;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.alignright {
+    padding: 4px;
+    margin: 0 0 2px 7px;
+    display: inline;
+}
+
+img.alignleft {
+    padding: 4px;
+    margin: 0 7px 2px 0;
+    display: inline;
+}
